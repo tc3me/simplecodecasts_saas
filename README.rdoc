@@ -1,5 +1,11 @@
 == README
 
+This is a SaaS project as part of the Udemy Course: Complete Web Developer Bootcamp by Rob Dey -- 
+Coder Manual Project Application
+Subscription-Based Web Application
+http://codermanual.com
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
