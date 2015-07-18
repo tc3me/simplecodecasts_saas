@@ -5,7 +5,7 @@ $(document).ready(function(){
         event.preventDefault();
         $('input[type=submit]').prop('disabled', true);
         var error = false;
-        var ccnum = $('#card_number').val(),
+        var ccNum = $('#card_number').val(),
             cvcNum = $('#card_code').val(),
             expMonth = $('#card_month').val(),
             expYear = $('#card_year').val();
