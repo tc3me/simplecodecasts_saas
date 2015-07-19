@@ -9,7 +9,11 @@
     border-color: #2e6da4;
     text-align: center;
 }
-.avatar-image{
+.user-show-avatar{
+    height: 200px;
+    width: 200px;
+}
+.round-avatar{
     border: 2px white solid;
     border-radius: 50%;
     -webkit-box-shadow: 11px 10px 33px -13px rgba(0,0,0,0.75);
@@ -31,4 +35,15 @@
     h3{
         margin-top: 0;
     }
+}
+.users-list-well{
+    // background-color: transparent;
+    // border: 0px;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.well.white-bg{
+    background-color: white;
 }
