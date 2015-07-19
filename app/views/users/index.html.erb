@@ -15,9 +15,13 @@
                             </div>
                             <div class="well col-sm-9 <%= cycle('white-bg', '') %>">
                                 <%= link_to user do %>
-                                    <h2><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
+                                    <h2 class= "index-user-info"><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
                                 <% end %>
-                                <h4><%= user.profile.job_title %></h4>
+                                <h4><%= user.profile.job_title %> 
+                                <% if user.plan_id == 2 %>
+                                    <span class="label label-danger">PRO</span>
+                                <% end %>
+                                </h4>
                             </div>
                         </div>
                         
